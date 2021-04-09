@@ -7,7 +7,7 @@ public class Principal {
     public static void main(String[] args) {//firma del metodo main 
         int x, opc; //variables a usar 
         Scanner entrada = new Scanner(System.in);
-
+        int a;
         //3 objetos y cada objeto es un alumno
         //a los objetos se les instancia con el constructor de Alumno que recibe 5 parametros
         Alumno alum1 = new Alumno("B200100", "Noe", "Guillen", "Los coquitos", "9621006472", 18);
